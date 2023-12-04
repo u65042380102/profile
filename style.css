@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 15px;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #333;
+}
+.banner{
+    background-image:url(img/sci.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 20px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info{
+    text-align: center;
+}
+
+.banner-info img{
+    width: 300px;
+    border-radius: 100%;
+}
+
+main{
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr;
+}
+main img{
+    width: 100%;
+}
+main div{
+    padding: 20px;
+}
+
+.edu{
+    background-image:url(img/edu.jpg);
+    height: 400px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-info{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.edu-info img{
+    width: 300px;
+    border-radius: 100%;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
